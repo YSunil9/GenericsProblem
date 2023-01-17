@@ -8,22 +8,22 @@ namespace UsingGenerics
 {
     internal class FindMaximum
     {
-        public void MaxValue(int first, int second, int third)
+        public  void MaxValue(float first, float second, float third)
         {
             if (first.CompareTo(second) > 0 && first.CompareTo(third) > 0)
             {
-                Console.WriteLine("{0} is Maximum of all", first);
+                Console.WriteLine($"{first} is greater");
             }
             else if (second.CompareTo(first) > 0 && second.CompareTo(third) > 0)
             {
-                Console.WriteLine("{0} is Maximum of all", second);
+                Console.WriteLine($"{second} is greater");
             }
             else if (third.CompareTo(first) > 0 && third.CompareTo(second) > 0)
             {
-                Console.WriteLine("{0} is Maximum of all", third);
+                Console.WriteLine($"{third} is greater");
             }
             else
-                Console.WriteLine("All The Numbers Are Equal");
+                Console.WriteLine("All The Values are Equal");
         }
     }
 }
