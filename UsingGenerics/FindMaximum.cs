@@ -8,7 +8,7 @@ namespace UsingGenerics
 {
     internal class FindMaximum
     {
-        public  void MaxValue(float first, float second, float third)
+        public void MaxValue(string first, string second, string third)
         {
             if (first.CompareTo(second) > 0 && first.CompareTo(third) > 0)
             {
